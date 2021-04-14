@@ -14,6 +14,8 @@
 		55A4DDA92621F42000234631 /* JWTAsmt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55A4DDA72621F42000234631 /* JWTAsmt.xcdatamodeld */; };
 		55A4DDAB2621F42100234631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A4DDAA2621F42100234631 /* Assets.xcassets */; };
 		55A4DDAE2621F42100234631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A4DDAC2621F42100234631 /* LaunchScreen.storyboard */; };
+		55A4DDBE2622166300234631 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A4DDBD2622166300234631 /* Box.swift */; };
+		55A4DDC126221B3A00234631 /* JsonWebToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A4DDC026221B3A00234631 /* JsonWebToken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		55A4DDAA2621F42100234631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55A4DDAD2621F42100234631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55A4DDAF2621F42100234631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A4DDBD2622166300234631 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		55A4DDC026221B3A00234631 /* JsonWebToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonWebToken.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,12 @@
 		55A4DD9D2621F42000234631 /* JWTAsmt */ = {
 			isa = PBXGroup;
 			children = (
+				55A4DDB62621F91200234631 /* Controllers */,
+				55A4DDB82621F91200234631 /* Models */,
+				55A4DDBA2621F91200234631 /* mvvm */,
+				55A4DDB72621F91200234631 /* Services */,
+				55A4DDB92621F91200234631 /* Utilities */,
+				55A4DDBB2621F91200234631 /* Views */,
 				55A4DD9E2621F42000234631 /* AppDelegate.swift */,
 				55A4DDA02621F42000234631 /* SceneDelegate.swift */,
 				55A4DDA22621F42000234631 /* ViewController.swift */,
@@ -68,6 +78,50 @@
 				55A4DDA72621F42000234631 /* JWTAsmt.xcdatamodeld */,
 			);
 			path = JWTAsmt;
+			sourceTree = "<group>";
+		};
+		55A4DDB62621F91200234631 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		55A4DDB72621F91200234631 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		55A4DDB82621F91200234631 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55A4DDB92621F91200234631 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				55A4DDBD2622166300234631 /* Box.swift */,
+				55A4DDC026221B3A00234631 /* JsonWebToken.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		55A4DDBA2621F91200234631 /* mvvm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mvvm;
+			sourceTree = "<group>";
+		};
+		55A4DDBB2621F91200234631 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +196,10 @@
 			files = (
 				55A4DDA32621F42000234631 /* ViewController.swift in Sources */,
 				55A4DD9F2621F42000234631 /* AppDelegate.swift in Sources */,
+				55A4DDC126221B3A00234631 /* JsonWebToken.swift in Sources */,
 				55A4DDA92621F42000234631 /* JWTAsmt.xcdatamodeld in Sources */,
 				55A4DDA12621F42000234631 /* SceneDelegate.swift in Sources */,
+				55A4DDBE2622166300234631 /* Box.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
