@@ -23,17 +23,16 @@ class JsonWebToken {
         let headerBase64String = headerJSONData.urlSafeBase64EncodedString()
 
         let payloadJSONData = try! JSONEncoder().encode(Payload())
-        print("####", payloadJSONData.description)
         let payloadBase64String = payloadJSONData.urlSafeBase64EncodedString()
 
         let toSign = (headerBase64String + "." + payloadBase64String).data(using: .utf8)!
 
         let signature = HMAC<SHA256>.authenticationCode(for: toSign, using: privateKey)
-        print("signature: ", signature)
+        
         let signatureBase64String = Data(signature).urlSafeBase64EncodedString()
 
         let token = [headerBase64String, payloadBase64String, signatureBase64String].joined(separator: ".")
-        return token // eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+        return token
     }
 }
 
