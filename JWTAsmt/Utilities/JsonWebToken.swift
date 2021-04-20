@@ -8,13 +8,13 @@
 import CryptoKit
 import UIKit
 
-class JsonWebToken {
+final class JsonWebToken {
     
     func getJWT() -> String{
         return self.generateJwtToken()
     }
     
-    private func generateJwtToken() -> String{
+    func generateJwtToken() -> String{
         
         let secret = "58627c2e-d2f7-47ec-8ab6-b193a1f88658"
         let privateKey = SymmetricKey(data: secret.data(using: .utf8)!)

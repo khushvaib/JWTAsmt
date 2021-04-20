@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,9 +16,19 @@
 		55A4DDAE2621F42100234631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A4DDAC2621F42100234631 /* LaunchScreen.storyboard */; };
 		55A4DDBE2622166300234631 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A4DDBD2622166300234631 /* Box.swift */; };
 		55A4DDC126221B3A00234631 /* JsonWebToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A4DDC026221B3A00234631 /* JsonWebToken.swift */; };
+		55E7CB98262CA4F900B8D87B /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7CB97262CA4F900B8D87B /* Services.swift */; };
+		55E7CB9B262CA54100B8D87B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7CB9A262CA54100B8D87B /* Reachability.swift */; };
+		55E7CB9E262CA56D00B8D87B /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7CB9D262CA56D00B8D87B /* Alerts.swift */; };
+		55E7CBA1262CA5CC00B8D87B /* RequestOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7CBA0262CA5CC00B8D87B /* RequestOutcome.swift */; };
+		55E7CBA4262CA5D500B8D87B /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7CBA3262CA5D500B8D87B /* AnyDecodable.swift */; };
+		55E7CBA7262CA5E400B8D87B /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7CBA6262CA5E300B8D87B /* AppDefaults.swift */; };
+		55E7CBAA262CA5EC00B8D87B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7CBA9262CA5EC00B8D87B /* Constant.swift */; };
+		55E7CBAD262CA61500B8D87B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7CBAC262CA61500B8D87B /* Helper.swift */; };
+		9A9239BA642EF443A024783B /* Pods_JWTAsmt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFD8C0E9EA5CCE3A94D23F7 /* Pods_JWTAsmt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A26700BDDAB3F080B5B696F /* Pods-JWTAsmt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTAsmt.debug.xcconfig"; path = "Target Support Files/Pods-JWTAsmt/Pods-JWTAsmt.debug.xcconfig"; sourceTree = "<group>"; };
 		55A4DD9B2621F42000234631 /* JWTAsmt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWTAsmt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A4DD9E2621F42000234631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55A4DDA02621F42000234631 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +40,16 @@
 		55A4DDAF2621F42100234631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55A4DDBD2622166300234631 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		55A4DDC026221B3A00234631 /* JsonWebToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonWebToken.swift; sourceTree = "<group>"; };
+		55E7CB97262CA4F900B8D87B /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		55E7CB9A262CA54100B8D87B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		55E7CB9D262CA56D00B8D87B /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		55E7CBA0262CA5CC00B8D87B /* RequestOutcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOutcome.swift; sourceTree = "<group>"; };
+		55E7CBA3262CA5D500B8D87B /* AnyDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
+		55E7CBA6262CA5E300B8D87B /* AppDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefaults.swift; sourceTree = "<group>"; };
+		55E7CBA9262CA5EC00B8D87B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		55E7CBAC262CA61500B8D87B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5FFD8C0E9EA5CCE3A94D23F7 /* Pods_JWTAsmt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTAsmt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE545AEDDCF672279920BAD4 /* Pods-JWTAsmt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTAsmt.release.xcconfig"; path = "Target Support Files/Pods-JWTAsmt/Pods-JWTAsmt.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +57,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A9239BA642EF443A024783B /* Pods_JWTAsmt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30AC39716A3B0DF8B9E1E2BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FFD8C0E9EA5CCE3A94D23F7 /* Pods_JWTAsmt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55A4DD922621F42000234631 = {
 			isa = PBXGroup;
 			children = (
 				55A4DD9D2621F42000234631 /* JWTAsmt */,
 				55A4DD9C2621F42000234631 /* Products */,
+				F02C022720A1E96704ED3ADF /* Pods */,
+				30AC39716A3B0DF8B9E1E2BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +121,7 @@
 		55A4DDB72621F91200234631 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				55E7CB97262CA4F900B8D87B /* Services.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -104,6 +136,13 @@
 		55A4DDB92621F91200234631 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				55E7CBAC262CA61500B8D87B /* Helper.swift */,
+				55E7CBA9262CA5EC00B8D87B /* Constant.swift */,
+				55E7CBA6262CA5E300B8D87B /* AppDefaults.swift */,
+				55E7CBA3262CA5D500B8D87B /* AnyDecodable.swift */,
+				55E7CBA0262CA5CC00B8D87B /* RequestOutcome.swift */,
+				55E7CB9D262CA56D00B8D87B /* Alerts.swift */,
+				55E7CB9A262CA54100B8D87B /* Reachability.swift */,
 				55A4DDBD2622166300234631 /* Box.swift */,
 				55A4DDC026221B3A00234631 /* JsonWebToken.swift */,
 			);
@@ -124,6 +163,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		F02C022720A1E96704ED3ADF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A26700BDDAB3F080B5B696F /* Pods-JWTAsmt.debug.xcconfig */,
+				AE545AEDDCF672279920BAD4 /* Pods-JWTAsmt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55A4DDB22621F42100234631 /* Build configuration list for PBXNativeTarget "JWTAsmt" */;
 			buildPhases = (
+				F939B8D74722C150A6F9DA3D /* [CP] Check Pods Manifest.lock */,
 				55A4DD972621F42000234631 /* Sources */,
 				55A4DD982621F42000234631 /* Frameworks */,
 				55A4DD992621F42000234631 /* Resources */,
+				32B91A12D2335143CBAF858D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,17 +239,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32B91A12D2335143CBAF858D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWTAsmt/Pods-JWTAsmt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWTAsmt/Pods-JWTAsmt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWTAsmt/Pods-JWTAsmt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F939B8D74722C150A6F9DA3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWTAsmt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55A4DD972621F42000234631 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				55A4DDA32621F42000234631 /* ViewController.swift in Sources */,
+				55E7CBAD262CA61500B8D87B /* Helper.swift in Sources */,
 				55A4DD9F2621F42000234631 /* AppDelegate.swift in Sources */,
+				55E7CBA1262CA5CC00B8D87B /* RequestOutcome.swift in Sources */,
 				55A4DDC126221B3A00234631 /* JsonWebToken.swift in Sources */,
+				55E7CB98262CA4F900B8D87B /* Services.swift in Sources */,
+				55E7CBA7262CA5E400B8D87B /* AppDefaults.swift in Sources */,
 				55A4DDA92621F42000234631 /* JWTAsmt.xcdatamodeld in Sources */,
 				55A4DDA12621F42000234631 /* SceneDelegate.swift in Sources */,
+				55E7CB9B262CA54100B8D87B /* Reachability.swift in Sources */,
+				55E7CBAA262CA5EC00B8D87B /* Constant.swift in Sources */,
+				55E7CB9E262CA56D00B8D87B /* Alerts.swift in Sources */,
 				55A4DDBE2622166300234631 /* Box.swift in Sources */,
+				55E7CBA4262CA5D500B8D87B /* AnyDecodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +443,7 @@
 		};
 		55A4DDB32621F42100234631 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A26700BDDAB3F080B5B696F /* Pods-JWTAsmt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -361,6 +462,7 @@
 		};
 		55A4DDB42621F42100234631 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE545AEDDCF672279920BAD4 /* Pods-JWTAsmt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
